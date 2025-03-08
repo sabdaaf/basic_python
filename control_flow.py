@@ -74,5 +74,16 @@ for n in range(2, 10):
         if n % x == 0:
             print(f"{n} equals {x} * {n//x}")
             break
+print('======')
+
+#continue
+for num in range(2, 10):
+    if num % 2 == 0:
+        print(f"Found an even number {num}")
+        continue
+    print(f"Found an odd number {num}")
+
+#else Clauses on Loops
+
 
   
